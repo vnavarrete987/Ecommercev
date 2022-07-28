@@ -49,7 +49,7 @@ const CheckoutCard = ({ product: { id, name, image, price, rating } }) => {
             variant='h5'
             color='textSecondary'
           >
-            {accounting.formatMoney(price, "€")}
+            {accounting.formatMoney(price, "S/")}
           </Typography>
         }
         title={name}

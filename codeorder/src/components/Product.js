@@ -74,7 +74,7 @@ export default function Product({
               variant='h5'
               color='textSecondary'
             >
-              {accounting.formatMoney(price, "€")}
+              {accounting.formatMoney(price, "S/")}
             </Typography>
           }
           title={name}
@@ -83,7 +83,7 @@ export default function Product({
         <CardMedia className={classes.media} image={image} title={name} />
         <CardContent>
           <Link to={`/producto/${id}`}>
-            {/* Cambiar estilo xq está dentro de un elemento Link */}
+            {}
             <Typography variant='body2' color='textSecondary' component='p'>
               {productType}
             </Typography>
